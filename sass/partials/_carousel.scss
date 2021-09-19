@@ -1,0 +1,14 @@
+.carousel-indicators {
+  [data-bs-target] {
+    background-color: $primary;
+  }
+
+  .active {
+    background-color: $carousel-indicator-active-bg;
+  }
+}
+
+.min-width-mobile {
+  min-height: 270px;
+  object-fit: cover;
+}

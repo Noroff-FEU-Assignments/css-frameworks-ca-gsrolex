@@ -1,0 +1,45 @@
+.playfair-font {
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+}
+
+.bold {
+  font-style: normal;
+}
+
+.active {
+  color: black;
+}
+
+.input-append {
+  margin-left: -6px;
+}
+
+@media only screen and (min-width: 1268px) {
+  .margin-nav {
+    margin: 0rem 8rem;
+  }
+}
+
+.navbar-nav {
+  .nav-link {
+    color: $navbar-light-color;
+
+    &:hover,
+    &:focus {
+      color: $navbar-light-hover-color;
+    }
+
+    &.disabled {
+      color: $navbar-light-disabled-color;
+    }
+  }
+
+  .show > .nav-link,
+  .nav-link.active {
+    background-color: white;
+    border-radius: 10px;
+    max-height: 40px;
+    min-width: 80px;
+  }
+}

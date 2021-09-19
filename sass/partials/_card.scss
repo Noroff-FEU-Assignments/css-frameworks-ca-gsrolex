@@ -1,0 +1,33 @@
+.card {
+  border: $card-border-width none $card-border-color;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    background-color: $primary;
+  }
+}
+
+.news-card {
+  border: 0px none;
+}
+
+.news-card h5 {
+  font-weight: bold;
+}
+
+.news-card a {
+  width: 88%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .news-card a {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .news-card a {
+    width: 88%;
+  }
+}

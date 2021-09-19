@@ -1,0 +1,27 @@
+.nav-tabs {
+  .nav-link {
+    color: $danger;
+  }
+}
+
+.img-max {
+  max-width: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .big-screen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .big-screen {
+    display: flex;
+  }
+}
+.mt-5 .big-screen-tab {
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}

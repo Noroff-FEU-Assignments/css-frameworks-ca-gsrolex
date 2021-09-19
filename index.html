@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/e92e9edbfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3 mt-1">
+        <div class="container-fluid margin-nav">
+          <a class="navbar-brand text-danger ml-5 playfair-font" href="#"
+            >The YAY Company</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2 border-0"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="
+                  btn btn-outline-success
+                  bg-danger
+                  text-light
+                  border-0
+                  input-append
+                  rounded-right
+                "
+                type="submit"
+              >
+                Go
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active carousel-button"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            class="carousel-button"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            class="carousel-button"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="container-fluid">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Carousel images/carousel-1.jpg"
+                class="d-block w-100 min-width-mobile"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Carousel images/carousel-2.jpg"
+                class="d-block w-100 min-width-mobile"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Carousel images/carousel-3.jpg"
+                class="d-block w-100 min-width-mobile"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="container mt-5 px-4">
+        <h1 class="text-danger playfair-font bold pb-3">We do YAY things</h1>
+        <p class="pb-5">
+          Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a
+          rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend
+          finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet,
+          consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa
+          euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus
+          a, varius eget massa.
+        </p>
+      </div>
+      <div class="container mt-5 px-4">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link active border-0"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+            >
+              First
+            </button>
+            <button
+              class="nav-link border-0"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+            >
+              Second
+            </button>
+            <button
+              class="nav-link border-0"
+              id="nav-contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-contact"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
+              Third
+            </button>
+          </div>
+        </nav>
+        <div
+          class="tab-content shadow mb-5 bg-white rounded"
+          id="nav-tabContent"
+        >
+          <div
+            class="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center">
+                  <img
+                    src="tab-images/tab-1.jpg"
+                    class="img-fluid rounded-start pb-5 img-max p-5"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8 pt-4">
+                  <div class="card-body big-screen">
+                    <p class="card-text w-100">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <div class="row mt-5">
+                      <div class="d-flex big-screen-tab">
+                        <p class="card-text fw-bold px-2 text-center">SHARE</p>
+                        <i class="fab fa-facebook-f fa-lg px-2 pt-1"></i>
+                        <i class="fab fa-twitter fa-lg px-2 pt-1"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+            <div class="card mb-3 border-0" ">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="tab-images/tab-2.jpg"
+                  class="img-fluid rounded-start p-5 pb-6 img-max"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pt-4">
+                <div class="card-body big-screen">
+                  <p class="card-text w-100">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="row mt-5">
+                    <div class="d-flex big-screen-tab">
+                      <p class="card-text fw-bold px-2 text-center">SHARE</p>
+                      <i class="fab fa-facebook-f fa-lg px-2 pt-1"></i>
+                      <i class="fab fa-twitter fa-lg px-2 pt-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+        >
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="tab-images/tab-3.jpg"
+                  class="img-fluid rounded-start p-5 pb-6 img-max"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pt-4">
+                <div class="card-body big-screen">
+                  <p class="card-text w-100">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="row mt-5">
+                    <div class="d-flex big-screen-tab">
+                      <p class="card-text fw-bold px-2 text-center">SHARE</p>
+                      <i class="fab fa-facebook-f fa-lg px-2 pt-1"></i>
+                      <i class="fab fa-twitter fa-lg px-2 pt-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer py-1 mx-0 bg-light">
+      <div class="container-fluid">
+        <div class="row col-ld-10 mx-auto">
+          <div
+            class="
+              col col-ld-1
+              d-flex
+              align-items-center
+              justify-content-center
+              gx-5
+            "
+          >
+            <div>
+              <i class="text-info fab fa-vimeo-v fa-3x"></i>
+            </div>
+            <div class="pl-5">
+              <i class="text-info fab fa-youtube fa-3x"></i>
+            </div>
+          </div>
+          <div
+            class="
+              col-md-8
+              d-flex
+              align-items-center
+              justify-content-center
+              pt-3
+            "
+          >
+            <p class="text-info">hello@yay.com</p>
+          </div>
+          <div
+            class="
+              col col-ld-1
+              d-flex
+              align-items-center
+              justify-content-center
+              pt-3
+            "
+          >
+            <p class="text-info">Copyright 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
